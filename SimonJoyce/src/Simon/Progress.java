@@ -6,6 +6,8 @@ import guiPractice8.component.Component;
 
 public class Progress extends Component implements ProgressInterfaceJoyce {
 
+	private String round;
+	
 	public Progress(int x, int y, int width, int height) {
 		super(x, y, width, height);
 		// TODO Auto-generated constructor stub
@@ -19,7 +21,7 @@ public class Progress extends Component implements ProgressInterfaceJoyce {
 
 	@Override
 	public void setRound(int roundNumber) {
-		// TODO Auto-generated method stub
+		round = "Round" +roundNumber;
 
 	}
 
