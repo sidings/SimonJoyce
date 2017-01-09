@@ -3,11 +3,11 @@ package Simon;
 import java.awt.Color;
 import java.util.ArrayList;
 
-import guiPractice.components.Action;
-import guiPractice.components.Button;
-import guiPractice.components.TextLabel;
-import guiPractice.components.Visible;
-import guiPractice.sampleGames.ClickableScreen;
+import guiPractice8.component.Action;
+import guiPractice8.component.Button;
+import guiPractice8.component.TextLabel;
+import guiPractice8.component.Visible;
+import guiPractice8.ClickableScreen;
 
 public class SimonScreenJoyce extends ClickableScreen implements Runnable {
 

@@ -2,8 +2,8 @@ package Simon;
 
 import java.awt.Color;
 
-import guiPractice.components.Action;
-import guiPractice.components.Clickable;
+import guiPractice8.component.Action;
+import guiPractice8.component.Clickable;
 
 public interface ButtonInterfaceJoyce extends Clickable {
 
