@@ -8,15 +8,14 @@ import guiPractice8.component.Clickable;
 public interface ButtonInterfaceJoyce extends Clickable {
 
 	void setColor(Color color);
-
-	void setX(int x);
-
-	void setY(int y);
 	
-	void setAction(Action a);
+	void setAction(Action action);
 
 	void highlight();
 
 	void dim();
 
+	void setX(int x);
+
+	void setY(int y); 
 }
